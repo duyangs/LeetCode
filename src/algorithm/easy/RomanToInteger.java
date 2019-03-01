@@ -1,6 +1,10 @@
 package algorithm.easy;
 
+import com.sun.xml.internal.fastinfoset.util.CharArrayIntMap;
+
 import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 /**
  * @author XiMiMax (Ryan Du)
@@ -65,7 +69,7 @@ public class RomanToInteger {
      * @return 结果
      */
     private static int romanToInt(String roman){
-        HashMap<Character,Integer> map = new HashMap<>();
+        LinkedHashMap<Character,Integer> map = new LinkedHashMap<>();
         map.put('I',1);
         map.put('V',5);
         map.put('X',10);
