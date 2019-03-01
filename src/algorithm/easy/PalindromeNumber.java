@@ -2,7 +2,7 @@ package algorithm.easy;
 
 /**
  * @author XiMiMax (Ryan Du)
- * @LeetCode https://leetcode-cn.com/problems/xxx/
+ * @LeetCode https://leetcode-cn.com/problems/palindrome-number/
  * @github https://github.com/duyangs
  * @date 2019/2/28
  * @description 回文数

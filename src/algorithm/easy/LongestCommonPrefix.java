@@ -2,7 +2,7 @@ package algorithm.easy;
 
 /**
  * @author XiMiMax (Ryan Du)
- * @LeetCode https://leetcode-cn.com/problems/xxx/
+ * @LeetCode https://leetcode-cn.com/problems/longest-common-prefix/
  * @github https://github.com/duyangs
  * @date 2019/3/1
  * @description 最长公共前缀
