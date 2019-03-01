@@ -1,10 +1,6 @@
 package algorithm.easy;
 
-import com.sun.xml.internal.fastinfoset.util.CharArrayIntMap;
-
-import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.Map;
 
 /**
  * @author XiMiMax (Ryan Du)
