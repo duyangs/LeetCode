@@ -12,3 +12,4 @@
 - [最长公共前缀 （LongestCommonPrefix）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/LongestCommonPrefix.java)
 - [有效的括号 （ValidParentheses）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/ValidParentheses.java)
 - [合并两个有序链表 （MergeTwoSortedLists）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/MergeTwoSortedLists.java)
+- [删除排序数组中的重复项 （RemoveDuplicatesFromSortedArray）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/RemoveDuplicatesFromSortedArray.java)
