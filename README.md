@@ -13,3 +13,4 @@
 - [有效的括号 （ValidParentheses）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/ValidParentheses.java)
 - [合并两个有序链表 （MergeTwoSortedLists）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/MergeTwoSortedLists.java)
 - [删除排序数组中的重复项 （RemoveDuplicatesFromSortedArray）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/RemoveDuplicatesFromSortedArray.java)
+- [移除元素（RemoveElement）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/RemoveElement.java)
