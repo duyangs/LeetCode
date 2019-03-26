@@ -14,3 +14,4 @@
 - [合并两个有序链表 （MergeTwoSortedLists）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/MergeTwoSortedLists.java)
 - [删除排序数组中的重复项 （RemoveDuplicatesFromSortedArray）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/RemoveDuplicatesFromSortedArray.java)
 - [移除元素（RemoveElement）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/RemoveElement.java)
+- [实现strStr()（ImplementStrStr）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/ImplementStrStr.java)
