@@ -16,3 +16,4 @@
 - [移除元素（RemoveElement）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/RemoveElement.java)
 - [实现strStr()（ImplementStrStr）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/ImplementStrStr.java)
 - [搜索插入位置（SearchInsertPosition）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/SearchInsertPosition.java)
+- [报数(CountAndSay)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/CountAndSay.java)
