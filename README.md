@@ -15,3 +15,4 @@
 - [删除排序数组中的重复项 （RemoveDuplicatesFromSortedArray）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/RemoveDuplicatesFromSortedArray.java)
 - [移除元素（RemoveElement）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/RemoveElement.java)
 - [实现strStr()（ImplementStrStr）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/ImplementStrStr.java)
+- [搜索插入位置（SearchInsertPosition）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/SearchInsertPosition.java)
