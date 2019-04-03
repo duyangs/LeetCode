@@ -17,3 +17,4 @@
 - [实现strStr()（ImplementStrStr）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/ImplementStrStr.java)
 - [搜索插入位置（SearchInsertPosition）](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/SearchInsertPosition.java)
 - [报数(CountAndSay)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/CountAndSay.java)
+- [最大子序和(MaximumSubArray)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/MaximumSubArray.java)
