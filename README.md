@@ -20,3 +20,4 @@
 - [最大子序和(MaximumSubArray)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/MaximumSubArray.java)
 - [最后一个单词的长度(LengthOfLastWord)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/LengthOfLastWord.java)
 - [加一(PlusOne)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/PlusOne.java)
+- [二进制求和(AddBinary)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/AddBinary.java)
