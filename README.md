@@ -21,3 +21,4 @@
 - [最后一个单词的长度(LengthOfLastWord)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/LengthOfLastWord.java)
 - [加一(PlusOne)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/PlusOne.java)
 - [二进制求和(AddBinary)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/AddBinary.java)
+- [x的平方根(SqrtX)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/SqrtX.java)
