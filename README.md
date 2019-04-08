@@ -22,3 +22,4 @@
 - [加一(PlusOne)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/PlusOne.java)
 - [二进制求和(AddBinary)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/AddBinary.java)
 - [x的平方根(SqrtX)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/SqrtX.java)
+- [爬楼梯(ClimbingStairs)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/ClimbingStairs.java) *
