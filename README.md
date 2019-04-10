@@ -24,3 +24,4 @@
 - [x的平方根(SqrtX)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/SqrtX.java)
 - [爬楼梯(ClimbingStairs)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/ClimbingStairs.java) *
 - [删除排序链表中的重复元素(RemoveDuplicatesFromSortedList)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/RemoveDuplicatesFromSortedList.java) *
+- [合并两个有序数组(MergeSortedArray)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/MergeSortedArray.java) *
