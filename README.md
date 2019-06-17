@@ -27,3 +27,4 @@
 - [合并两个有序数组(MergeSortedArray)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/MergeSortedArray.java) *
 - [相同的树(SameTree)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/SameTree.java)
 - [对称二叉树(SymmetricTree)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/SymmetricTree.java)
+- [二叉树的最大深度(MaximumDepthOfBinaryTree)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/MaximumDepthOfBinaryTree.java)
