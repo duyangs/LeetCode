@@ -39,8 +39,8 @@ public class CountAndSay {
     /**
      * 递归 +  双指针
      *
-     * @param n
-     * @return
+     * @param n 整数
+     * @return 字符串
      */
     private static String countAndSay(int n) {
         if (n == 1) {

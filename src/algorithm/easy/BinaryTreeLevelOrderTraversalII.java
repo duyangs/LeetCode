@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author XiMiMax (Ryan Du)
+ * @author DuYang
  * @LeetCode https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/
  * @github https://github.com/duyangs
  * @date 2019/7/17
@@ -57,9 +57,9 @@ public class BinaryTreeLevelOrderTraversalII {
     /**
      * 分左右子树的递归,对题理解失误，做成了对元素遍历，分左右子树的方式
      *
-     * @param left
-     * @param right
-     * @return
+     * @param left 左子树
+     * @param right 右子树
+     * @return List<List<Integer>>
      */
     private static List<List<Integer>> levelOrder(TreeNode left, TreeNode right) {
         List<List<Integer>> rootList = new ArrayList<>();
@@ -83,9 +83,9 @@ public class BinaryTreeLevelOrderTraversalII {
 
     /**
      * 二叉树 层遍历  递归
-     * @param root
-     * @param rootList
-     * @param level
+     * @param root root
+     * @param rootList root list
+     * @param level 层
      */
     private static void levelOrder2(TreeNode root, List<List<Integer>> rootList, int level) {
         if (root == null) return;

@@ -1,7 +1,7 @@
 package algorithm.easy;
 
 /**
- * @author XiMiMax (Ryan Du)
+ * @author DuYang
  * @LeetCode https://leetcode-cn.com/problems/climbing-stairs/
  * @github https://github.com/duyangs
  * @date 2019/4/8
