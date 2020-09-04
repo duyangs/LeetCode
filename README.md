@@ -29,3 +29,4 @@
 - [对称二叉树(SymmetricTree)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/SymmetricTree.java)
 - [二叉树的最大深度(MaximumDepthOfBinaryTree)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/MaximumDepthOfBinaryTree.java)
 - [二叉树层次遍历II(BinaryTreeLevelOrderTraversalII)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/BinaryTreeLevelOrderTraversalII.java)
+- [二叉树的所有路径(BinaryTreePaths)](https://github.com/duyangs/LeetCode/blob/master/src/algorithm/easy/BinaryTreePaths.java)

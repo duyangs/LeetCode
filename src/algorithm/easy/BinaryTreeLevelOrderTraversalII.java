@@ -1,5 +1,7 @@
 package algorithm.easy;
 
+import algorithm.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,16 +35,6 @@ import java.util.List;
  */
 public class BinaryTreeLevelOrderTraversalII {
 
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
     private static List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> rootList = new ArrayList<>();
         levelOrder2(root,rootList,1);
@@ -67,13 +59,13 @@ public class BinaryTreeLevelOrderTraversalII {
         List<List<Integer>> leftList = new ArrayList<>();
         List<List<Integer>> rightList = new ArrayList<>();
         if (left != null) {
-            leftList = levelOrder(left.left, left.right);
-            root.add(left.val);
+            leftList = levelOrder(left.getLeft(), left.getRight());
+            root.add(left.getVal());
         }
 
         if (right != null) {
-            rightList = levelOrder(right.left, right.right);
-            root.add(right.val);
+            rightList = levelOrder(right.getLeft(), right.getRight());
+            root.add(right.getVal());
         }
         if (rightList.size() > 0) rootList.addAll(rightList);
         if (leftList.size() > 0) rootList.addAll(leftList);
@@ -93,9 +85,9 @@ public class BinaryTreeLevelOrderTraversalII {
             List<Integer> list = new ArrayList<>();
             rootList.add(0, list);
         }
-        rootList.get(rootList.size() - level).add(0, root.val);
-        levelOrder2(root.right,rootList,level+1);
-        levelOrder2(root.left,rootList,level+1);
+        rootList.get(rootList.size() - level).add(0, root.getVal());
+        levelOrder2(root.getRight(),rootList,level+1);
+        levelOrder2(root.getLeft(),rootList,level+1);
     }
 
     public static void main(String[] args) {

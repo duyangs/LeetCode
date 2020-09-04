@@ -1,5 +1,7 @@
 package algorithm.easy;
 
+import algorithm.TreeNode;
+
 /**
  * @author XiMiMax (Ryan Du)
  * @LeetCode https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
@@ -29,19 +31,6 @@ package algorithm.easy;
  */
 public class MaximumDepthOfBinaryTree {
 
-    /**
-     * Definition for a binary tree node.
-     */
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
     private static int maxDepth(TreeNode root) {
         return getDepth(root, 0);
     }
@@ -56,8 +45,8 @@ public class MaximumDepthOfBinaryTree {
     private static int getDepth(TreeNode root, int length) {
         if (root == null) return length;
         length++;
-        int lLength = getDepth(root.left, length);
-        int rLength = getDepth(root.right, length);
+        int lLength = getDepth(root.getLeft(), length);
+        int rLength = getDepth(root.getRight(), length);
         if (lLength > rLength) {
             return lLength;
         } else {

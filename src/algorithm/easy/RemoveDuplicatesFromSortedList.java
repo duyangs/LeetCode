@@ -1,5 +1,7 @@
 package algorithm.easy;
 
+import algorithm.ListNode;
+
 /**
  * @author XiMiMax (Ryan Du)
  * @LeetCode https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/
@@ -24,11 +26,11 @@ public class RemoveDuplicatesFromSortedList {
     private static ListNode deleteDuplicates(ListNode head) {
         ListNode value = head;
 
-            while (value != null && value.next != null) {
-                if (value.next.val == value.val){
-                    value.next = value.next.next;
+            while (value != null && value.getNext() != null) {
+                if (value.getNext().getVal() == value.getVal()){
+                    value.setNext(value.getNext().getNext());
                 }else {
-                    value = value.next;
+                    value = value.getNext();
                 }
             }
 
@@ -42,26 +44,17 @@ public class RemoveDuplicatesFromSortedList {
         ListNode l13 = new ListNode(2);
         ListNode l12 = new ListNode(1);
 //        l13.next = l14;
-        l12.next = l13;
+        l12.setNext(l13);
         ListNode l11 = new ListNode(1);
-        l11.next = l12;
+        l11.setNext(l12);
 
         ListNode value = deleteDuplicates(l11);
         while (value != null) {
-            System.out.print(value.val);
-            if (value.next != null) {
+            System.out.print(value.getVal());
+            if (value.getNext() != null) {
                 System.out.print("->");
             }
-            value = value.next;
-        }
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
+            value = value.getNext();
         }
     }
 }

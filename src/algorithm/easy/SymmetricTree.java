@@ -1,5 +1,7 @@
 package algorithm.easy;
 
+import algorithm.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -32,16 +34,6 @@ import java.util.Queue;
  */
 public class SymmetricTree {
 
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
     /**
      * 方法：递归
      * 如果一个树的左子树和右子树镜像对称，那么这个树是对称的。
@@ -66,7 +58,7 @@ public class SymmetricTree {
     private static boolean isMirror(TreeNode t1, TreeNode t2) {
         if (t1 == null && t2 == null) return true;
         if (t1 == null || t2 == null) return false;
-        return (t1.val == t2.val) && isMirror(t1.left, t2.right) && isMirror(t1.right, t2.left);
+        return (t1.getVal() == t2.getVal()) && isMirror(t1.getLeft(), t2.getRight()) && isMirror(t1.getRight(), t2.getLeft());
     }
 
     /**
@@ -93,11 +85,11 @@ public class SymmetricTree {
             TreeNode t2 = q.poll();
             if (t1 == null && t2 == null) continue;
             if (t1 == null || t2 == null) return false;
-            if (t1.val != t2.val) return false;
-            q.add(t1.left);
-            q.add(t2.right);
-            q.add(t1.right);
-            q.add(t2.left);
+            if (t1.getVal() != t2.getVal()) return false;
+            q.add(t1.getLeft());
+            q.add(t2.getRight());
+            q.add(t1.getRight());
+            q.add(t2.getLeft());
         }
         return true;
     }
